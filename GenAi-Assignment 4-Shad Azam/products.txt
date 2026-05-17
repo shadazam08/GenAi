@@ -1,0 +1,4 @@
+ProductName | Price
+azam | 123
+shad | 234
+wer | 567
