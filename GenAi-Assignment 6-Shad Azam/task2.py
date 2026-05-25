@@ -2,7 +2,7 @@
 
 # list of price
 prices = [120, 350, 'abc', 500, -200, 800]
-total = 0
+running_total = 0
 for price in prices:
     try:
         # chek price is number or not
