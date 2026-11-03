@@ -1,31 +1,24 @@
-# Task 5: Mini Program: safe shopping cart
+# Task 5: Abstraction (using Abstract base class)
 
-# define empty cart list
-cart = []
+from abc import ABC, abstractmethod
 
-# loop takes price input from user until chose q
-while True:
-    # input from user
-    price_input = input("Enter the price or 'q' to quit: ")
-    # check if user input q to quit
-    if price_input == 'q':
-        break
-    try:
-        # convert to flot
-        price = float(price_input)
-        # chek price is negative or not
-        if price < 0 :
-            raise Exception("Price is Negative")
-        # append price to cart list
-        cart.append(price)
+class Payment(ABC):
 
-    except ValueError:
-        print("invalid input")
-    except Exception as e:
-        print(e)
+    @abstractmethod
+    def process_payment(self, amount):
+        pass
 
-total_item = len(cart)
-total_bill = sum(cart)
+class CreditCardPayment(Payment):
+    def process_payment(self, amount):
+        print(f"Payment successful via credit Card and amount is : {amount}")
 
-print(f"\nTotal items: {total_item}")
-print(f"\nTotal Bill: {total_bill}")
+class UPIPayment(Payment):
+    def process_payment(self, amount):
+        print(f"Payment successful via UPI and amount is : {amount}")
+
+
+credit_card_payment = CreditCardPayment()
+credit_card_payment.process_payment(4000)
+
+upi_payment = UPIPayment()
+upi_payment.process_payment(10000)

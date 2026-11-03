@@ -1,20 +1,36 @@
-# Task 2: Bill Calculator with Error Handling
+# Task 2: Constructor & Encapsulation
 
-# list of price
-prices = [120, 350, 'abc', 500, -200, 800]
-running_total = 0
-for price in prices:
-    try:
-        # chek price is number or not
-        if not isinstance(price, int):
-            raise TypeError("Value is not a number")
-        # check price is negative or not
-        if price < 0:
-            raise ValueError("Negative Price not alloewd")
-        # calculate running total
-        running_total += price
-        print(f"Running Total: {running_total}")
-    except ValueError as ve:
-        print(f"{ve}")
-    except TypeError as te:
-        print(f"{te}")
+class Product:
+    def __init__(self, name, price, category):
+        self.name = name
+        self.__price = price
+        self.category = category
+
+    def get_info(self):
+        print(f"The product name is : {self.name}")
+        print(f"The product category is : {self.category}")
+        print(f"The product price is : {self.__price}")
+        print("-" * 30)
+
+    def get_price(self):
+        print(f"The product price is : {self.__price}")
+
+    def set_price(self, new_price):
+        if new_price > 0:
+            self.__price = new_price
+            return self.get_price()
+        else:
+            return f"The new price is not greter the zero"
+        
+
+
+    def apply_discount(self, percent):
+        discount_amount = (self.__price * percent) / 100
+        final_price = self.__price - discount_amount
+        return final_price
+
+product = Product("Gaming Laptop", 40000, "Electronics")
+
+product.get_info()
+
+product.set_price(450000)

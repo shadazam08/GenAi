@@ -33,6 +33,8 @@ GENAI/
 ├── GenAi-Assignment 4-Shad Azam
 ├── GenAi-Assignment 5-Shad Azam
 ├── GenAi-Assignment 6-Shad Azam
+├── GenAi-Assignment 7-Shad Azam
+├── GenAi-Assignment 8-Shad Azam
 │
 ├── practice/
 ├── venv/
