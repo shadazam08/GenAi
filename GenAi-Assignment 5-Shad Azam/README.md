@@ -20,7 +20,7 @@ This assignment demonstrates Python concepts related to importing modules, creat
 ## How to Run:
 1. Open terminal or command prompt
 2. Run the file:
-   python main.py
+   -  python main.py
 
 ## Files:
 - math_utils.py

@@ -18,11 +18,11 @@ This assignment demonstrates Python concepts related to Exception Handling. Each
 ## How to Run:
 1. Open terminal or command prompt
 2. Run the file:
-   python task1.py
-   python task2.py
-   python task3.py
-   python task4.py
-   python task5.py
+   -  python task1.py
+   -  python task2.py
+   -  python task3.py
+   -  python task4.py
+   -  python task5.py
 
 ## Files:
 - task1.py

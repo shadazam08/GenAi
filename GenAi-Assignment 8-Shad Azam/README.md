@@ -18,10 +18,10 @@ This assignment demonstrates the basics of building interactive web applications
 ## How to Run:
 1. Open terminal or command prompt
 2. Run the file:
-   streamlit run app_basic.py
-   streamlit run app_discount.py
-   streamlit run app_product_form.py
-   streamlit run app_dashboard.py
+   -  streamlit run app_basic.py
+   -  streamlit run app_discount.py
+   -  streamlit run app_product_form.py
+   -  streamlit run app_dashboard.py
    
 
 ## Files:
