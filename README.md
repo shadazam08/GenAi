@@ -196,8 +196,8 @@ GENAI/
 
 # 📈 Progress
 
-✅ Assignments Completed: 6  
-✅ Projects Completed: 39  
+✅ Assignments Completed: 8  
+✅ Projects Completed: 39
 🔄 More projects and advanced AI applications will be added continuously.
 
 ---
