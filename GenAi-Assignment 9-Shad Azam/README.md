@@ -38,3 +38,4 @@ This assignment demonstrates fundamental mathematical and statistical operations
 - task5.py
 - task6.py
 - task7.py
+- README.md
