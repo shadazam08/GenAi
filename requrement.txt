@@ -2,7 +2,7 @@ streamlit
 ipykernel
 numpy
 pandas
-
+matplotlib
 
 
 strem ko kise run karenge

@@ -1,10 +1,12 @@
 # GenAI Assignment 5 - Importing, Creating Modules & Packages 
+
 ## A5: Importing, Creating Modules & Packages
 
-## Name:
+## Name
+
 Shad Azam
 
-## Tasks Included:
+## Tasks Included
 
 - Task 1: Create a simple module (math_utils.py)
 - Task 2: Create another module (string_utils.py)
@@ -14,15 +16,18 @@ Shad Azam
    - __init__.py
 - Task 4: importing the package in main.py
 
-## Description:
+## Description
+
 This assignment demonstrates Python concepts related to importing modules, creating custom modules, and working with packages. Each task is designed to improve understanding of Python modules and package handling.
 
-## How to Run:
+## How to Run
+
 1. Open terminal or command prompt
 2. Run the file:
-   -  python main.py
+   - python main.py
 
-## Files:
+## Files
+
 - math_utils.py
 - string_utils.py
 - main.py

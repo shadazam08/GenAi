@@ -1,10 +1,12 @@
 # GenAI Assignment 3 - Function (user-defined, Recursive, Lambda, Map, Filter)
+
 ## A3: Functions (User-Defined, Recursive, Lambda, Map, Filter)
 
-## Name:
+## Name
+
 Shad Azam
 
-## Tasks Included:
+## Tasks Included
 
 - Task 1: Basic Function: Price After Discount
 - Task 2: Recursive Function: Factorial Utility
@@ -14,22 +16,25 @@ Shad Azam
 - Task 6: combined utility Function
 - Task 7: Mini Problem: Menu Using Functions
 
-## Description:
-This assignment of Python functions including user-defined functions, recursive functions, lambda functions, map(), and filter(). 
+## Description
+
+This assignment of Python functions including user-defined functions, recursive functions, lambda functions, map(), and filter().
 Each task is designed to improve understanding of functional programming concepts in Python through practical examples such as discount calculation, GST calculation, factorial utility, product filtering, and menu-driven programs.
 
-## How to Run:
+## How to Run
+
 1. Open terminal or command prompt
 2. Run the file:
-   -  python task1.py
-   -  python task2.py
-   -  python task3.py
-   -  python task4.py
-   -  python task5.py
-   -  python task5.py
-   -  python task7.py
+   - python task1.py
+   - python task2.py
+   - python task3.py
+   - python task4.py
+   - python task5.py
+   - python task5.py
+   - python task7.py
 
-## Files:
+## Files
+
 - task1.py
 - task2.py
 - task3.py

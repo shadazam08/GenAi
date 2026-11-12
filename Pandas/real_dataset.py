@@ -2,13 +2,20 @@ import numpy as np
 import pandas as pd
 
 
-# data = pd.read_csv('../youtubeDataset/youtube_2025_dataset_202504061614.csv')
-# data = pd.read_csv('../youtubeDataset/youtube_one_column.csv')
-# df = data.squeeze('columns')
+youtube = pd.read_csv(
+    '../youtubeDataset/youtube_2025_dataset_202504061614.csv')
+avg = youtube['Avg Video Length (min)']
+avarage_data = avg.copy()
+# avarage_data.sort_values(inplace=True)
+# print(avarage_data)
+# print(avg)
+data = pd.read_csv('../youtubeDataset/youtube_one_column.csv')
+df = data.squeeze('columns')
 # # print(type(df))
 # print(df)
 # print('-' * 60)
-data1 = pd.read_csv('../youtubeDataset/youtube_two_column.csv', index_col='Youtuber Name').astype('int32')
+data1 = pd.read_csv('../youtubeDataset/youtube_two_column.csv',
+                    index_col='Youtuber Name').astype('int32')
 dataframe = data1.squeeze('columns')
 
 # dataframes = type(data1)
@@ -20,10 +27,17 @@ dataframe = data1.squeeze('columns')
 # dataframes = data1.name
 # dataframes = data1.is_unique
 # dataframes = data1.head(2)
-dataframes = data1.tail(2)
+# dataframes = data1.tail(2)
+# dataframes = data.tail(2)
+# dataframes = data.sample(5)
+# dataframes = avg.value_counts()
+# dataframes = avg.sort_values()
+# dataframes = avg.sort_values(ascending=False)
+# dataframes = avg.sort_values(ascending=False).head(1)
+# dataframes = avg.sort_values(ascending=False).head(1).values[0]
+dataframes = data1.sort_index()
 # print(data1)
-print(dataframe)
-print('-' * 60)
+# print(dataframe)
+# print('-' * 60)
 print(dataframes)
 print('-' * 60)
-

@@ -1,10 +1,12 @@
 # GenAI Assignment 7 - Object-Oriented Programming (OOP)
+
 ## A7: Object-Oriented Programming (OOP)
 
-## Name:
+## Name
+
 Shad Azam
 
-## Tasks Included:
+## Tasks Included
 
 - Task 1: Basic Class & Object Creation
 - Task 2: Constructor & Encapsulation
@@ -14,23 +16,26 @@ Shad Azam
 - Task 6: Magic Methods & Operator Overloading
 - Task 7: Mini Project: Simple Inventory System (OOP only)
 
-## Description:
+## Description
+
 This assignment demonstrates Python concepts related to Exception Handling. Each task is designed to improve understanding of Python Exception Handling.
 
 This assignment demonstrates Python concepts related to Object-Oriented Programming (OOP). Each task is designed to improve understanding of core OOP fundamentals, including Classes & Object, Attributes & Methods, Constructors, Encapsulation, Inheritance, Polymorphism, Abstraction, Magic Methods, and Operator Overloading.
 
-## How to Run:
+## How to Run
+
 1. Open terminal or command prompt
 2. Run the file:
-   -  python task1.py
-   -  python task2.py
-   -  python task3.py
-   -  python task4.py
-   -  python task5.py
-   -  python task6.py
-   -  python task7.py
+   - python task1.py
+   - python task2.py
+   - python task3.py
+   - python task4.py
+   - python task5.py
+   - python task6.py
+   - python task7.py
 
-## Files:
+## Files
+
 - task1.py
 - task2.py
 - task3.py
