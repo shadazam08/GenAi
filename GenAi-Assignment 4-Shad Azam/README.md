@@ -1,10 +1,12 @@
 # GenAI Assignment 4 - File Handling (Read, Write, Append, Modes)
+
 ## A4: File Handling (Read, Write, Append, Modes)
 
-## Name:
+## Name
+
 Shad Azam
 
-## Tasks Included:
+## Tasks Included
 
 - Task 1: Write Sales Record to a File
 - Task 2: Read File in Different Ways
@@ -14,22 +16,25 @@ Shad Azam
 - Task 6: Read File Safely (Error Handling Inside File Handling Only)
 - Task 7: Mini Project- Export Price List
 
-## Description:
-This assignment of Python File Handling including Read, Write, Append and  Modes. 
+## Description
+
+This assignment of Python File Handling including Read, Write, Append and  Modes.
 Each task is designed to improve understanding of File Handling programming concepts in Python
 
-## How to Run:
+## How to Run
+
 1. Open terminal or command prompt
 2. Run the file:
-   -  python task1.py
-   -  python task2.py
-   -  python task3.py
-   -  python task4.py
-   -  python task5.py
-   -  python task5.py
-   -  python task7.py
+   - python task1.py
+   - python task2.py
+   - python task3.py
+   - python task4.py
+   - python task5.py
+   - python task5.py
+   - python task7.py
 
-## Files:
+## Files
+
 - task1.py
 - task2.py
 - task3.py

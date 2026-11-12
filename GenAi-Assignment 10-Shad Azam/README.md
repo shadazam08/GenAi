@@ -1,10 +1,13 @@
 # GenAI Assignment 10 - Pandas (Series, DataFrame, Functions, Filtering & Analysis)
+
 ## A10: Pandas (Series, DataFrame, Functions, Filtering & Analysis)
 
-## Name:
+## Name
+
 Shad Azam
 
-## Tasks Included:
+## Tasks Included
+
 - Task 1: Pandas Series Basic
 - Task 2: Mathematical Operations Series 
 - Task 3: Python Functionalities on Series
@@ -15,10 +18,12 @@ Shad Azam
 - Task 8: Pandas Plotting (Simple Graphs)
 - Task 9: Mini Use Case: Sales Data Analysis
 
-## Description:
+## Description
+
 This assignment demonstrates fundamental data manipulation, filtering, and analysis operations using **Pandas (Series and DataFrames)** in Python. Each task covers Series creation, core DataFrame functions, conditional filtering, grouping, basic data visualization, and a practical mini use case for sales data analysis.
 
-## How to Run:
+## How to Run
+
 1. Open terminal or command prompt
 2. Run the files:
    - py task1.py
@@ -31,7 +36,8 @@ This assignment demonstrates fundamental data manipulation, filtering, and analy
    - py task8.py
    - py task9.py
 
-## Files:
+## Files
+
 - task1.py
 - task2.py
 - task3.py
